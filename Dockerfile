@@ -25,6 +25,7 @@ COPY key.pem /etc/ssl
 COPY site1.conf /etc/apache2/sites-available
 COPY site2.conf /etc/apache2/sites-available
 COPY site3.conf /etc/apache2/sites-available
+COPY ports.conf /etc/apache2
 
 COPY image1.jpg /home/images/
 COPY image2.jpg /home/images/
