@@ -25,6 +25,11 @@ COPY site1.conf /etc/apache2/sites-available
 COPY site2.conf /etc/apache2/sites-available
 COPY site3.conf /etc/apache2/sites-available
 
+COPY image1.jpg /home/images/
+COPY image2.jpg /home/images/
+COPY image3.jpg /home/images/
+
+
 COPY site2/ /var/www/html/site2
 COPY site3/ /var/www/html/site3
 
@@ -35,5 +40,7 @@ RUN a2ensite site3.conf
 EXPOSE 80
 EXPOSE 443
 EXPOSE 8443
+
+CMD chmod -R 777 /home/images/
 
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
