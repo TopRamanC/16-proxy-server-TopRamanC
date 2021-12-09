@@ -5,6 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get -y update
 RUN apt-get install -y apache2 && apt-get clean
 RUN apt-get install curl
+RUN apt-get install -y vim
 
 RUN a2enmod rewrite
 RUN a2enmod ssl
