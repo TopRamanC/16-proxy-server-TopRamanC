@@ -1,0 +1,15 @@
+	```
+    Name: Ramanpreet Chadha
+    Lab Name: 16-proxy-server
+    Date Assigned: Dec 1, 2021
+    Date Completed: Dec 8, 2021
+    Status:  Completed <!-- select one -->
+    Outstanding Issues:
+    Had problems with using proxy and alias in the same vhost block. Spent a lot of time to figure out how to stop proxypass from messing up the alias for images.	<!-- insert description -->
+    
+    Major Impediments:
+    No impediments. Spent a lot of time researching and with trial & error I was able to solve it.	<!-- insert description -->
+
+    Feedback Comments:
+    Probably spent like 10+ hours on this lab and struggled a lot but I was able to solve it! Another hard but great lab that taught me a lot.    <!-- insert description --> 
+    ```
